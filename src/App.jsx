@@ -7,11 +7,11 @@ function App() {
   return (
     <>
       <h1>React core concepts</h1>
-      <ToDo task="Learn React" isDone={true}></ToDo>
+      {/* <ToDo task="Learn React" isDone={true}></ToDo> */}
 
-      {/* <Dog></Dog>
+      <Dog></Dog>
       <Salami event="Roja Eid"></Salami>
-      <Dog></Dog> */}
+      <Dog></Dog>
     
     </>
   )
