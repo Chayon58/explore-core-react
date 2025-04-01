@@ -12,6 +12,7 @@ function App() {
       <Dog></Dog>
       <Salami event="Roja Eid"></Salami>
       <Dog></Dog>
+      <Animal></Animal>
     
     </>
   )
@@ -49,5 +50,13 @@ function Person() {
     )
   }
 
+  function Animal(){
+    return (
+      <div className='animal'>
+        <p>Animal: </p>
+        <p>Color :</p>
+      </div>
+    )
+  }
 
 export default App
